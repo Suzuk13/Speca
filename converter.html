@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>小さじ・大さじ・グラム変換</title>        
+    </head>
+    <body>
+        <dl>調味料
+            <select id="tyoumiryou">
+                <option value="nothing">ーーー</option>
+                <option value="syokuen">食塩</option>
+                <option value="satou">砂糖</option>
+            </select>
+
+            <select id="tanni">
+                <option selected="selected" value="">ーーー</option>
+                <option value="syou">小さじ</option>
+                <option value="dai">大さじ</option>
+                <option value="gram">グラム</option>
+            </select>
+
+            <input id="number1" type="text">
+
+            <input id="text1" type="text" readonly="">
+            
+            <input id="calculate" type="button" value="変換">
+        </dl>
+
+        <dl>
+            <input id="text2" type="text" readonly="">
+
+            <input id="number2" type="text" readonly="">
+
+            <input id="text3" type="text" readonly="">
+        </dl>
+        
+        <script src="converter.js"></script>
+    </body>
+</html>
