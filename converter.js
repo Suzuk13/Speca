@@ -14,6 +14,7 @@ document.getElementById('calculate').onclick = function () {
 
     let id1 = document.getElementById('tyoumiryou').value;
     let id2 = document.getElementById('tanni').value;
+    
     if(id1 == 'syokuen'){
         if(id2 == 'syou'){
             result = 6*number1;

@@ -1,0 +1,39 @@
+html {
+    font-size: 40px;
+}
+
+dl {
+    line-height: 1.5;
+    text-align: center;
+}
+
+input {
+    font-size: 30px;
+}
+
+select {
+    font-size: 30px;
+}
+
+#number1{
+    width: 4em;
+}
+
+#text1 {
+    width: 1em;
+}
+
+#text2 {
+    position: relative; left: 77.67px;
+    width: 3em;
+}
+
+#number2 {
+    position: relative; left: 91.5px;
+    width: 4em;
+}
+
+#text3 {
+    position: relative; left: 91px;
+    width: 1em;
+}
