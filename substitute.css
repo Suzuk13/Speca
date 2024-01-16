@@ -2,6 +2,33 @@ html {
     font-size: 40px;
 }
 
+header {
+    text-align: center;
+}
+
+header {
+    position: relative;
+    padding: 0.5em;
+    background: rgb(0, 41, 204);
+    color: white;
+}
+  
+header::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(149, 158, 155);
+}
+
+h1 {
+    margin: 10px;
+    letter-spacing: 0.5em;
+    font-size: 60px;
+}
+
 div {
     margin: 20px;
     line-height: 2;
@@ -14,44 +41,6 @@ input {
 
 select {
     font-size: 30px;
-}
-
-ul.menu {
-    margin: 0px;
-    padding: 0px 0px 0px 15px;
-    background-color: rgb(0, 41, 204);
-}
- 
-ul.menu li {
-    width: 240px;
-    display: inline-block;
-    list-style-type: none;
-    position: relative;
-}
-
-ul.menu a {
-    background-color: rgb(0, 41, 204);
-    color: white;
-    line-height: 60px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-}
-
-ul.menu a:hover {
-    background-color: rgb(94, 109, 168);
-    color: rgb(0, 41, 204);
-}
- 
-ul.menu ul {
-    display: none;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-}
-
-ul.menu li:hover ul {
-    display: block;
 }
 
 #number1{

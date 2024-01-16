@@ -33,6 +33,8 @@ document.getElementById('calculate').onclick = function () {
 
             document.getElementById('text2-2').value = "杯";
             document.getElementById('text3-2').value = "杯";
+
+            document.getElementById('style3').style.visibility = "hidden";
         }else if(id2 == 'dai'){
             document.getElementById('number2').value = number;
             document.getElementById('number3').value = number;
@@ -42,15 +44,19 @@ document.getElementById('calculate').onclick = function () {
 
             document.getElementById('text2-2').value = "杯";
             document.getElementById('text3-2').value = "杯";
+
+            document.getElementById('style3').style.visibility = "hidden";
         }else if(id2 == 'gram'){
-            document.getElementById('number2').value = number;
-            document.getElementById('number3').value = number/3;
+            document.getElementById('number2').value = number*3/4;
+            document.getElementById('number3').value = number/4;
 
             document.getElementById('tanni2').value = "グラム";
             document.getElementById('tanni3').value = "グラム";
 
             document.getElementById('text2-2').value = "g";
             document.getElementById('text3-2').value = "g";
+
+            document.getElementById('style3').style.visibility = "hidden";
         }
     }else if(id1 == 'ponzu'){
         document.getElementById('style1').style.visibility = "";
@@ -85,9 +91,9 @@ document.getElementById('calculate').onclick = function () {
             document.getElementById('text3-2').value = "杯";
             document.getElementById('text4-2').value = "杯";
         }else if(id2 == 'gram'){
-            document.getElementById('number2').value = number;
-            document.getElementById('number3').value = number;
-            document.getElementById('number4').value = number/2;
+            document.getElementById('number2').value = number*2/5;
+            document.getElementById('number3').value = number*2/5;
+            document.getElementById('number4').value = number/5;
 
             document.getElementById('tanni2').value = "グラム";
             document.getElementById('tanni3').value = "グラム";
